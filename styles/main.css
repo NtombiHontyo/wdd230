@@ -9,6 +9,7 @@ main,
 footer {
   margin: 1.25rem auto;
   max-width: 760px;
+  font-family: 'Merriweather', serif;
 }
 
 header,
@@ -34,4 +35,5 @@ header img {
 }
 h1 {
   justify-items: center;
+  font-family: 'Bebas Neue', cursive;
 }
