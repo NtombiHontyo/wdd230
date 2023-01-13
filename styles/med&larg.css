@@ -1,0 +1,28 @@
+@media (min-width: 64em) {
+  ul {
+    line-height: 1.5;
+  }
+  h2 {
+    line-height: 1.5;
+  }
+  header,
+  main,
+  footer {
+    line-height: 1.5;
+  }
+  header {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+  }
+
+  
+  header img {
+    grid-column: 1/2;
+    
+  }
+  h1 {
+    grid-column: 2/3;
+    justify-items: center;
+  }
+  
+}
