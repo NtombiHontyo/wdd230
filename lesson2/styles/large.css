@@ -12,8 +12,9 @@ main {
 }
 a {
   margin: auto;
-  color: #ffffff;
+  color: #04030F;
   text-decoration: none;
+  font-weight: bold;
 }
 img{
     max-width: 100%;
