@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Design</title>
     <meta
       name="description"
       content="The main design points for the website of Chamber of Commerce."
     />
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/mainmedlarge.css" />
+    <link rel="stylesheet" href="styles/design.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Durban Chamber of Commerce Site-plan</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Site Purpose</a></li>
+          <li><a href="target-audience.html">Target-audience</a></li>
+          <li><a href="design.html">Design</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Color Scheme</h2>
+        <table class="colors">
+          <tr>
+            <th>Primary</th>
+            <th>Secondary</th>
+            <th>Accent 1</th>
+            <th>Accent 2</th>
+          </tr>
+          <tr>
+            <td class="primary">#27187E</td>
+            <td class="secondary">#E6FAFC</td>
+            <td class="accent1">#E9D758</td>
+            <td class="accent2">#297373</td>
+          </tr>
+        </table>
+      </section>
+      <section>
+      <h2>Typography</h2>
+      <h3>Heading Font: Carter One</h3>
+      <h2>Example: <span>Heading One</span></h2>
+      <h3>Paragraph Font: Montserrat</h3>
+      <h2>Example</h2>
+      <p>
+        The Chamber is an independent, non-political, subscription-based
+        association dedicated to promoting a business-friendly environment. Our
+        members are drawn from every sector of the economy, and range from
+        independent entrepreneurs to the large corporate. We are a key player in
+        the promotion and facilitation of international trade and an impartial
+        third party which enables us to negotiate contracts and secure funding
+        for projects that benefit its membership. We promote enterprise
+        development, skills development training and business advisory services.
+      </p>
+    </section>
+      
+    </main>
+    <footer>
+      <section>
+        &copy; <span id="currentyear"></span> &#9829; Ntombesizwe Hontyo &#9829;
+        South Africa ELS
+        <div>Last Modified: <span id="lastmodified"></span></div>
+      </section>
+      </footer>
+      <script src="scripts/homepage.js"></script>
+  </body>
 </html>
