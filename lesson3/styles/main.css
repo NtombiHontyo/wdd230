@@ -26,6 +26,7 @@ nav ul a {
     text-align: center;
     padding: 0.75rem;
     text-decoration: none;
+    color: #E6FAFC;
 }
 nav a:hover {
     background-color: #27187E;
