@@ -1,0 +1,162 @@
+body {
+  background-color: #e6fafc;
+  font-family: "Montserrat", sans-serif;
+  max-height: 914px;
+  font-size: 18px;
+}
+header,
+main,
+footer {
+  margin: 1.25rem auto;
+  max-width: 760px;
+}
+header,
+footer {
+  background-color: #27187e;
+}
+img {
+  width: 130px;
+}
+.footerImg {
+  width: 60px;
+}
+a > img {
+  width: 45px;
+  padding-top: 1rem;
+}
+.gram {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.logopage {
+  display: flex;
+  justify-content: space-between;
+}
+picture > img {
+  padding: 1rem;
+}
+h1,
+h3 {
+  font-family: "Carter One", cursive;
+  color: #e6fafc;
+  padding-right: 0.5rem;
+}
+.socials {
+  display: flex;
+}
+nav button {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #fff9ec;
+  padding: 1rem;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  color: #fff9ec;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #ffb2e6;
+}
+nav ul li a:hover {
+  background-color: #8447ff;
+}
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+.topdate {
+  display: flex;
+  justify-content: right;
+  color: #fff9ec;
+  padding-right: 1rem;
+}
+footer {
+  color: #fff9ec;
+  padding: 1rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+#location a {
+  color: #fff9ec;
+}
+.classFooter {
+  border-top: 1px solid white;
+  padding-top: 1rem;
+}
+.blockOne {
+  height: 300px;
+  border: 1px solid black;
+  margin: 0.3rem auto;
+  padding: 1rem;
+  background-color: #B7AD99;
+}
+.blockTwo {
+  height: 300px;
+  margin: 0.3rem auto;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: #B7AD99;
+}
+.blockThree {
+  height: 300px;
+  margin: 0.3rem auto;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: #B7AD99;
+}
+.blockFour {
+  height: 300px;
+  margin: 0.3rem auto;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: #B7AD99;
+}
+.blockFive {
+  height: 300px;
+  margin: 0.3rem auto;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #B7AD99;
+}
+.sp1 {
+  border: 1px solid black;
+  margin: 0.8rem;
+  padding: 1rem;
+ background-color: #FFFFF3;
+}
+.sp2 {
+  border: 1px solid black;
+  margin: 0.8rem;
+  padding: 1rem;
+  background-color: #FFFFF3;
+}
