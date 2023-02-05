@@ -31,7 +31,11 @@ a > img {
 .logopage {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
+
 picture > img {
   padding: 1rem;
 }
@@ -43,6 +47,8 @@ h3 {
 }
 .socials {
   display: flex;
+  margin-right: 1rem;
+  
 }
 nav button {
   background: transparent;
@@ -113,50 +119,88 @@ footer {
   padding-top: 1rem;
 }
 .blockOne {
-  height: 300px;
-  border: 1px solid black;
-  margin: 0.3rem auto;
-  padding: 1rem;
-  background-color: #B7AD99;
+  position: relative;
 }
 .blockTwo {
-  height: 300px;
+  height: 15rem;
   margin: 0.3rem auto;
   border: 1px solid black;
   padding: 1rem;
-  background-color: #B7AD99;
+  background-color: #27187e;
+  color: white;
 }
 .blockThree {
-  height: 300px;
+  height: 15rem;
   margin: 0.3rem auto;
   border: 1px solid black;
   padding: 1rem;
-  background-color: #B7AD99;
+  padding-bottom: 3rem;
+  background-color: #27187e;
+  color: white;
 }
 .blockFour {
-  height: 300px;
+  height: 15rem;
   margin: 0.3rem auto;
   border: 1px solid black;
   padding: 1rem;
   background-color: #B7AD99;
 }
 .blockFive {
-  height: 300px;
+  height: 25rem;
   margin: 0.3rem auto;
   border: 1px solid black;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   background-color: #B7AD99;
 }
 .sp1 {
   border: 1px solid black;
   margin: 0.8rem;
+  margin-bottom: 0;
   padding: 1rem;
  background-color: #FFFFF3;
 }
 .sp2 {
   border: 1px solid black;
   margin: 0.8rem;
+  margin-top: 0;
   padding: 1rem;
   background-color: #FFFFF3;
+}
+.sp3 {display: none;}
+.blockSix {
+  display: none;
+}
+.heroImage{
+  height: 15rem;
+  width: 100%;
+  
+}
+
+.blockOne h1 {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  margin: 0;
+}
+.blockOne h2 {
+  position: absolute;
+  top: 10rem;
+  left: 17rem;
+  margin: 0;
+  background-color: #27187E;
+  color: white;
+  padding: .8rem;
+  box-shadow: 1px 1px 4px 1px #888;
+      border-radius: 5px;
+}
+.blockTwo h2 {
+  text-align: center;
+}
+.p2{
+  text-align: center;
+  border-bottom:1px solid white;
+}
+.blockThree h2 {
+  text-align: center;
 }

@@ -21,7 +21,16 @@
     grid-column: 2/3;
     grid-row: 1/3;
     margin: 0;
-    height: 635px;
+    height: auto;
+  }
+  .heroImage{
+    height: 100%;
+    
+  }
+  .blockOne h2 {
+    position: absolute;
+    top: 30rem;
+    left: 14rem;
   }
   .blockTwo {
     grid-column: 1/2;
@@ -34,22 +43,28 @@
     margin: 0;
   }
   .blockFour {
-    grid-column: 1/4;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 0;
+  }
+  .blockSix {
+    grid-column: 1/2;
     grid-row: 3/4;
     margin: 0;
   }
   .blockFive {
     grid-column: 3/4;
-    grid-row: 1/3;
+    grid-row: 1/4;
     height: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
   .sp1 {
     border: 1px solid black;
     margin: 0.8rem;
+    margin-bottom: 0;
     padding: 1rem;
    background-color: #FFFFF3;
    height: 100%;
@@ -57,10 +72,19 @@
   .sp2 {
     border: 1px solid black;
     margin: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 1rem;
     background-color: #FFFFF3;
     height: 100%;
   }
-  
+  .sp3{display: block;
+    border: 1px solid black;
+    margin: 0.8rem;
+    margin-top: 0;
+    padding: 1rem;
+    background-color: #FFFFF3;
+    height: 100%;
+  }
     
 }

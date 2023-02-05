@@ -3,8 +3,15 @@ const options = {year:'numeric'};
 document.getElementById("currentyear").innerHTML = new Date().toLocaleDateString('en', options);
 let text = document.lastModified;
 document.getElementById("lastmodified").innerHTML = text;
-const optionss = {day: 'numeric', month:'long', year:'numeric'};
-document.getElementById("headerdate").innerHTML = new Date().toLocaleDateString('en', optionss);
+
+const now = new Date();
+const fulldateUK = new
+Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"
+}).format(now);
+document.getElementById("headerdate").innerHTML = `<em>${fulldateUK}</em>`;
+
+
 
 // For the responisive navigation//
 function toggleMenu(){
