@@ -39,7 +39,7 @@ a > img {
 picture > img {
   padding: 1rem;
 }
-h1,
+h1, h2,
 h3 {
   font-family: "Carter One", cursive;
   color: #e6fafc;
@@ -143,30 +143,35 @@ footer {
   margin: 0.3rem auto;
   border: 1px solid black;
   padding: 1rem;
-  background-color: #B7AD99;
+  background-color:  #27187E
 }
+.blockFour h2 {color:white;}
+.blockFour p {color:white;}
 .blockFive {
   height: 25rem;
   margin: 0.3rem auto;
   border: 1px solid black;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  background-color: #B7AD99;
+  background-color: #27187E;
 }
 .sp1 {
   border: 1px solid black;
   margin: 0.8rem;
   margin-bottom: 0;
   padding: 1rem;
- background-color: #FFFFF3;
+ background-color: #297373;
 }
+.sp1 h2 {color: white;}
+.sp1 p {color: white;}
 .sp2 {
   border: 1px solid black;
   margin: 0.8rem;
   margin-top: 0;
   padding: 1rem;
-  background-color: #FFFFF3;
+  background-color: #297373;
 }
+.sp2 h2, p {color: white;}
 .sp3 {display: none;}
 .blockSix {
   display: none;
@@ -204,3 +209,11 @@ footer {
 .blockThree h2 {
   text-align: center;
 }
+
+.joinUsMess{ background-color: #E9D758;
+padding: 0.5rem;
+box-shadow:  #7a0008 1px 1px 10px;
+top: 0rem;
+left: 0rem;}
+.joinUsMess p {color: black;}
+

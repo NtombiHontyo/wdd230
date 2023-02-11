@@ -11,6 +11,19 @@ Intl.DateTimeFormat("en-UK", {
 }).format(now);
 document.getElementById("headerdate").innerHTML = `<em>${fulldateUK}</em>`;
 
+const day = now.getDay();
+const joinMess = document.querySelector(".joinUsMess");
+
+if (day == 1 ){
+    joinMess.style.display = 'block' ;
+}
+else if (day == 2 ){
+    joinMess.style.display = 'block' ;
+}
+else {
+joinMess.style.display = 'none' ;
+}
+
 
 
 // For the responisive navigation//

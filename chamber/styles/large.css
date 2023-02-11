@@ -36,6 +36,7 @@
     grid-column: 1/2;
     grid-row: 1/2;
     margin: 0;
+    height: auto;
   }
   .blockThree {
     grid-column: 1/2;
@@ -46,11 +47,13 @@
     grid-column: 2/3;
     grid-row: 3/4;
     margin: 0;
+    height: auto;
   }
   .blockSix {
     grid-column: 1/2;
     grid-row: 3/4;
     margin: 0;
+    height: auto;
   }
   .blockFive {
     grid-column: 3/4;
@@ -66,7 +69,7 @@
     margin: 0.8rem;
     margin-bottom: 0;
     padding: 1rem;
-   background-color: #FFFFF3;
+   background-color: #297373;
    height: 100%;
   }
   .sp2 {
@@ -75,7 +78,7 @@
     margin-top: 0;
     margin-bottom: 0;
     padding: 1rem;
-    background-color: #FFFFF3;
+    background-color: #297373;
     height: 100%;
   }
   .sp3{display: block;
@@ -83,8 +86,9 @@
     margin: 0.8rem;
     margin-top: 0;
     padding: 1rem;
-    background-color: #FFFFF3;
+    background-color: #297373;
     height: 100%;
   }
+  .sp3 h2, p {color: white;}
     
 }

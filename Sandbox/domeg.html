@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple DOM example</title>
+    <style>
+      .highlight {
+        color: white;
+        background-color: black;
+        padding: 10px;
+        width: 250px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <img
+        src="dinosaur.png"
+        alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth."
+      />
+      <p>
+        Here we will add a link to the
+        <a href="https://www.mozilla.org/">Mozilla homepage</a>
+      </p>
+    </section>
+  </body>
+  <script>
+    //How to manipulate an element//
+
+    //store it in a variable//
+    const link = document.querySelector("a");
+    //use a method to manipulate the text in the element//
+    link.textContent = "Mozilla Developer Network";
+    //How to change the path address of the link.//
+    link.href = "https://developer.mozilla.org";
+
+    //How to create a new element//
+
+    //First locate the potential parent element//
+    const sect = document.querySelector("section");
+    //create the element using the .createElement object.//
+    const para = document.createElement("p");
+    para.textContent = "We hope you enjoyed the ride.";
+    //Appent it to the parent.//
+    sect.appendChild(para);
+
+    const text = document.createTextNode(
+      "— the premier source for web development knowledge."
+    );
+    const linkPara = document.querySelector("p");
+    linkPara.appendChild(text);
+
+    //How to move items of a DOM//
+
+    //This moves the first <p> to be the last <p>
+    //Select the parent and use the appendChild method with the child you want to move as the parameter.
+    sect.appendChild(linkPara);
+
+    //How to remove a node//
+    //sect.removeChild(linkPara);  //
+
+    //How to remove without using the parent as a referance//
+    linkPara.remove();
+
+    //Adding styles to the DOM//
+
+    //para.style.color = 'white';
+//para.style.backgroundColor = 'black';
+//para.style.padding = '10px';
+//para.style.width = '250px';
+//para.style.textAlign = 'center';
+
+        //How to set an attribute//
+        //Takes two parameters; the type of attribute and the value of the attribute//
+        para.setAttribute('class', 'highlight');
+  </script>
+</html>

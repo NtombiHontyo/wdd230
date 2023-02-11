@@ -22,21 +22,25 @@
     grid-column: 1/3;
     grid-row: 1/2;
     margin: 0;
+    height: auto;
   }
   .blockTwo {
     grid-column: 1/2;
     grid-row: 5/6;
     margin: 0;
+    height: auto;
   }
   .blockThree {
     grid-column: 2/3;
     grid-row: 5/6;
     margin: 0;
+    height: auto;
   }
   .blockFour {
     grid-column: 1/3;
     grid-row: 2/3;
     margin: 0;
+    height: auto;
     
   }
   .blockFive {
@@ -68,10 +72,22 @@
     display: block;
     grid-column: 1/3;
     grid-row: 4/5;
-    height: 15rem;
+    height: auto;
     margin: 0;
     border: 1px solid black;
     padding: 1rem;
-    background-color: #b7ad99;
+    background-color: #27187E;
+  }
+  .blockSix h2 {
+    background-color: #27187E;
+    color: white;
+    padding: .8rem;
+    box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 5px;
+  }
+  .heroImage{
+    height: auto;
+    width: 100%;
+    
   }
 }
