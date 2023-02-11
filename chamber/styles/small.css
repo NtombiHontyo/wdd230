@@ -45,6 +45,9 @@ h3 {
   color: white;
   padding-right: 0.5rem;
 }
+.blockOne h1 {color: #27187e;}
+.blockFive div h2 {color: black;}
+.blockFive div p {color: black;}
 .socials {
   display: flex;
   margin-right: 1rem;
