@@ -52,3 +52,7 @@ footer {
 footer section {
     padding: 0.5rem;
 }
+.persona img {
+    float: left;
+    margin-right: 2rem;
+}
