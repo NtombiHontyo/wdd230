@@ -8,7 +8,6 @@ header,
 main,
 footer {
   margin: 1.25rem auto;
-  
 }
 header,
 footer {
@@ -39,19 +38,25 @@ a > img {
 picture > img {
   padding: 1rem;
 }
-h1, h2,
+h1,
+h2,
 h3 {
   font-family: "Carter One", cursive;
   color: white;
   padding-right: 0.5rem;
 }
-.blockOne h1 {color: #27187e;}
-.blockFive div h2 {color: black;}
-.blockFive div p {color: black;}
+.blockOne h1 {
+  color: #27187e;
+}
+.blockFive div h2 {
+  color: black;
+}
+.blockFive div p {
+  color: black;
+}
 .socials {
   display: flex;
   margin-right: 1rem;
-  
 }
 nav button {
   background: transparent;
@@ -123,6 +128,15 @@ footer {
 }
 .blockOne {
   position: relative;
+  background-color: grey;
+}
+.blockOne picture {
+  width: 100%;
+  height: 100%;
+}
+.blockOne picture .heroImage {
+  width: 100%;
+  height: 100%;
 }
 .blockTwo {
   height: 15rem;
@@ -142,31 +156,39 @@ footer {
   color: white;
 }
 .blockFour {
-  height: 15rem;
+  height: auto;
   margin: 0.3rem auto;
   border: 1px solid black;
   padding: 1rem;
-  background-color:  #27187E
+  background-color: #27187e;
 }
-.blockFour h2 {color:white;}
-.blockFour p {color:white;}
+.blockFour h2 {
+  color: white;
+}
+.blockFour p {
+  color: white;
+}
 .blockFive {
-  height: 25rem;
+  height: auto;
   margin: 0.3rem auto;
   border: 1px solid black;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  background-color: #27187E;
+  background-color: #27187e;
 }
 .sp1 {
   border: 1px solid black;
   margin: 0.8rem;
   margin-bottom: 0;
   padding: 1rem;
- background-color: #297373;
+  background-color: #297373;
 }
-.sp1 h2 {color: white;}
-.sp1 p {color: white;}
+.sp1 h2 {
+  color: white;
+}
+.sp1 p {
+  color: white;
+}
 .sp2 {
   border: 1px solid black;
   margin: 0.8rem;
@@ -174,15 +196,15 @@ footer {
   padding: 1rem;
   background-color: #297373;
 }
-.sp2 h2, p {color: white;}
-.sp3 {display: none;}
-.blockSix {
+.sp2 h2,
+p {
+  color: white;
+}
+.sp3 {
   display: none;
 }
-.heroImage{
-  height: 15rem;
-  width: 100%;
-  
+.blockSix {
+  display: none;
 }
 
 .blockOne h1 {
@@ -196,27 +218,34 @@ footer {
   top: 10rem;
   left: 17rem;
   margin: 0;
-  background-color: #27187E;
+  background-color: #27187e;
   color: white;
-  padding: .8rem;
+  padding: 0.8rem;
   box-shadow: 1px 1px 4px 1px #888;
-      border-radius: 5px;
+  border-radius: 5px;
 }
 .blockTwo h2 {
   text-align: center;
 }
-.p2{
+.p2 {
   text-align: center;
-  border-bottom:1px solid white;
+  border-bottom: 1px solid white;
 }
 .blockThree h2 {
   text-align: center;
 }
 
-.joinUsMess{ background-color: #E9D758;
-padding: 0.5rem;
-box-shadow:  #7a0008 1px 1px 10px;
-top: 0rem;
-left: 0rem;}
-.joinUsMess p {color: black;}
+.joinUsMess {
+  background-color: #e9d758;
+  padding: 0.5rem;
+  box-shadow: #7a0008 1px 1px 10px;
+  top: 0rem;
+  left: 0rem;
+}
+.joinUsMess p {
+  color: black;
+}
 
+.blockThree p {
+  border-top: 1px solid white;
+}

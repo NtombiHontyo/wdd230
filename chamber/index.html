@@ -27,7 +27,7 @@
       <div class="logopage">
         <picture>
           <img
-            src="images/businesslogo.jpg"
+            src="images/businesslogo.png"
             alt="Logo of Durban Chamber of Commerce"
           />
         </picture>
@@ -59,11 +59,12 @@
     </header>
     <main>
       <div class="blockOne">
-        <img
-          class="heroImage"
-          src="images/cityHeroPage.jpg"
-          alt="Picture of a city"
-        />
+        <picture>
+          <source media="(max-width: 35rem)" srcset="images/small-hero.png">
+          <source media="(max-width: 64rem)" srcset="images/medium-hero.png">
+          <source media="(max-width: 96rem)" srcset="images/large-hero.png">
+          <img class="heroImage" src="images/wdd230-org.jpg" alt="People Meeting">
+          </picture>
         <h1>Welcome To Durban</h1>
         <h2>JOIN</h2>
       </div>
@@ -74,9 +75,10 @@
       </div>
       <div class="blockThree">
         <h2>Weather</h2>
-        <span >&#9748;</span>
-        <span >32 &#8451;</span>
-        <p>Rain storm expected throughout the day</p>
+        <span ><img src="images/weather-icon.svg" alt="weather icon"></span>
+        <span id="tempV" >32 </span><span>&#8451;</span>
+        <p><p>Wind Speed:  <span id="speedV">8</span>mph</p>
+      <p id="output">Wind Chill:  </p></p>
       </div>
       <div class="blockFour">
         <h2>News Release</h2>
@@ -121,5 +123,6 @@
       </section>
     </footer>
     <script src="scripts/homepage.js"></script>
+    <script src="scripts/windchill.js"></script>
   </body>
 </html>
