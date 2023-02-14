@@ -52,7 +52,7 @@ h3 {
   color: black;
 }
 .blockFive div p {
-  color: black;
+  color: white;
 }
 .socials {
   display: flex;
@@ -182,6 +182,7 @@ footer {
   margin-bottom: 0;
   padding: 1rem;
   background-color: #297373;
+  color: white;
 }
 .sp1 h2 {
   color: white;
@@ -195,6 +196,7 @@ footer {
   margin-top: 0;
   padding: 1rem;
   background-color: #297373;
+  color: white;
 }
 .sp2 h2,
 p {
