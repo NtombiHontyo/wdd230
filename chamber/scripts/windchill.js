@@ -10,13 +10,14 @@ const htmlTemp = parseInt(document.getElementById('tempV').innerHTML);
  
 
 const htmlwindS = parseInt(document.getElementById('speedV').innerHTML);
-
-
-
-
+if (htmlTemp <= 50 && htmlwindS > 3){
 const windChill = Math.round(calculateWindSpeed(htmlTemp, htmlwindS));
 
 span.textContent = (windChill +  ' mph');
+}
+else {
+    span.textContent = "N/A";
+}
 para.appendChild(span);
 
 
