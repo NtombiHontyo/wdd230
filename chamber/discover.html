@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover</title>
+    <meta
+      name="description"
+      content="A discover page for the Durban Chamber of Commerce "
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logopage">
+        <picture>
+          <img
+            src="images/businesslogo.webp"
+            alt="Logo of Durban Chamber of Commerce"
+          />
+        </picture>
+        <h1>Durban Chamber of Commerce</h1>
+        <section class="socials">
+          <a href="https://facebook.com" target="_blank"
+            ><img src="images/facebookLogo.png" alt="facebook logo"
+          /></a>
+          <a href="https://instagram.com" target="_blank"
+            ><img
+              class="gram"
+              src="images/instagramLogo.png"
+              alt="instagram logo"
+          /></a>
+        </section>
+      </div>
+      <div class="topdate">
+        <span id="headerdate"></span>
+      </div>
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="nav">
+          <li><a href="index.html">HOME</a></li>
+          <li class="active"><a href="discover.html">DISCOVER</a></li>
+          <li><a href="#">CERTIFICATION</a></li>
+          <li><a href="#">INTERNATIONAL</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="discMain">
+      <section>
+        <h1>Durban Demographics</h1>
+        <img
+          class="map"
+          src="images/discoveryPage/durbanMap.png"
+          alt="map of Durban"
+        />
+        <div>
+          <h2>Local Population</h2>
+          <p>3 721 million (2018)</p>
+        </div>
+        <div>
+          <h2>Area</h2>
+          <p>2 292 km2</p>
+        </div>
+        <div>
+          <h2>Mayor</h2>
+          <p>Mxolisi Kaunda</p>
+        </div>
+        <div>
+          <h2>Area Code</h2>
+          <p>031</p>
+        </div>
+      </section>
+      <section>
+        <h1>Photo Gallery</h1>
+        <div class="gallery">
+        <picture
+          ><img src="images/discoveryPage/image-placeholder.jpg" data-src="images/discoveryPage/pictureOne.webp" alt="shark"
+        /></picture>
+        <p>
+          Shaka Marine World, one of the most popular aquariums in South Africa,
+          showcasing the greatest variety of shark species
+        </p>
+    </div>
+    <div class="gallery">
+        <p>
+          The City of Durban has one of South Africa's finest beaches with a
+          warm Indain Ocean current
+        </p>
+        <picture
+          ><img
+          src="images/discoveryPage/image-placeholder.jpg" data-src="images/discoveryPage/pictureTwo.webp"
+            alt="Durban coast line"
+        /></picture>
+    </div>
+    <div class="gallery">
+        <picture
+          ><img
+          src="images/discoveryPage/image-placeholder.jpg" data-src="images/discoveryPage/pictureThree.webp"
+            alt="Moses Mabhida Stadium"
+        /></picture>
+        <p>
+          Durban South Africa also had a footprint in the 2010 Soccer World Cup
+          with this archetectural stadium
+        </p>
+    </div>
+    <div class="gallery">
+        <p>
+          Come and see Durban's oldest public institution and Africa's oldest
+          surviving botanical gardens.
+        </p>
+        <picture
+          ><img
+          src="images/discoveryPage/image-placeholder.jpg"  data-src="images/discoveryPage/pictureFour.webp"
+            alt="Durban Botanic Gardens"
+        /></picture>
+    </div>
+    <div class="gallery">
+        <picture
+          ><img
+          src="images/discoveryPage/image-placeholder.jpg"  data-src="images/discoveryPage/pictureFive.webp"
+            alt="Durban Toyota Plant"
+        /></picture>
+        <p>
+          A huge portion of Toyota vehicles are manufactured in the Durban
+          Toyota manufacturing plant
+        </p>
+    </div>
+      </section>
+    </main>
+    <footer>
+      <section class="toppart">
+        <img
+          class="footerImg"
+          src="images/businesslogo.webp"
+          alt="Logo for Durban Chamber of Commerce"
+        />
+        <section class="column2">
+          <h3>Durban Chamber of Commerce</h3>
+          <p>10 Byron Street Cambridge, Durban</p>
+        </section>
+        <section class="contactInfo">
+          <p id="email">info@dbnchamber.org</p>
+          <p id="location"><a href="#"> &#9906; Location Map</a></p>
+        </section>
+      </section>
+      <section class="classFooter">
+        &copy; <span id="currentyear"></span>Durban Chamber of Commerce
+        <p>&#9829; Ntombesizwe Hontyo &#9829;WDD 230 Project</p>
+        <div>Last Modified: <span id="lastmodified"></span></div>
+        <p><span class="label">Days since last visit:</span> <span id="daysleft"></span></p>
+      </section>
+    </footer>
+    <script src="scripts/homepage.js"></script>
+  </body>
+</html>

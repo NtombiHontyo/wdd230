@@ -88,6 +88,12 @@
     height: 100%;
   }
   .sp3 h2, p {color: white;}
+  .discMain {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+  }
+
 
     
 }

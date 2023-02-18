@@ -86,7 +86,8 @@
     box-shadow: 1px 1px 4px 1px #888;
         border-radius: 5px;
   }
- 
-
-}
-
+ .discMain {
+  display: block;
+ }
+ picture img:hover {box-shadow: 0 0 50px #333;}
+  }

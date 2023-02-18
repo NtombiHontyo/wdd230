@@ -251,3 +251,38 @@ p {
 .blockThree p {
   border-top: 1px solid white;
 }
+.discMain {
+  background-color: #27187e;
+}
+.discMain section {
+  margin: 1rem;
+}
+.map {
+  width: 100%;
+}
+.discMain section h1 {
+  padding: 1rem;
+}
+.discMain section div {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.discMain section .gallery {
+  display: flex;
+}
+picture img {
+  width: 100%;
+  filter:blur(0em);
+  transition: filter 0.5s;
+}
+
+picture img[data-src]{
+  filter: blur(0.2em);
+}
+.gallery p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+picture {
+  padding-right: 1rem;
+}
