@@ -1,0 +1,14 @@
+main {display: flex;
+    justify-content: center;
+align-items: center;
+font-size: larger;}
+        .tick{ color: navy;
+        font-weight: 900;}
+            td, th {
+                text-align: center;
+            }
+            tr:nth-child(even) {
+background-color: lightblue;
+}
+tr:nth-child(-n + 2){ background-color: black;
+color: white;}
