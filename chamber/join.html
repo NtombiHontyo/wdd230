@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Durban Chamber of Commerce</title>
+    <title>JOIN</title>
     <meta
       name="description"
-      content="A homepage for the Durban Chamber of Commerce "
+      content="A page for joining the Durban Chamber of Commerce "
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -50,55 +50,39 @@
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="nav">
-          <li class="active"><a href="index.html">HOME</a></li>
+          <li ><a href="index.html">HOME</a></li>
           <li><a href="discover.html">DISCOVER</a></li>
-          <li><a href="join.html">JOIN</a></li>
+          <li class="active"><a href="join.html">JOIN</a></li>
           <li><a href="#">INTERNATIONAL</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <div class="blockOne">
-        <picture>
-          <source media="(max-width: 35rem)" srcset="images/small-hero.png">
-          <source media="(max-width: 64rem)" srcset="images/medium-hero.png">
-          <source media="(max-width: 96rem)" srcset="images/large-hero.png">
-          <img class="heroImage" src="images/wdd230-org.jpg" alt="People Meeting">
-          </picture>
-        <h1>Welcome To Durban</h1>
-        <h2>JOIN</h2>
-      </div>
-      <div class="blockTwo">
-        <h2>Webinar</h2>
-        <p>The ultimate guide to setting up an online store - Webinar</p>
-        <p class="p2">February 07, 2023 | 11:00 AM - 12:00 PM</p>
-      </div>
-      <div class="blockThree">
-        <h2>Weather</h2>
-        <span ><img src="images/weather-icon.svg" alt="weather icon"></span>
-        <span id="tempV" >38 </span><span>&#8451;</span>
-        <p>Wind Speed:  <span id="speedV">8</span>mph</p>
-      <p id="output">Wind Chill:  </p>
-      </div>
-      <div class="blockFour">
-        <h2>News Release</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <section class="blockFive">
-        <div class="sp1"><h2>Business</h2><p>Cape Chamber launches initiative to strengthen…</p><img src="images/spotlightOne.webp" alt="Clapping hands"></div>
-        <div class="sp2"><h2>Business</h2><p>New Year starts with a bang for South African...</p><img src="images/spotlightTwo.webp" alt="Space"></div>
-        <div class="sp3"><h2>Business</h2><p>Call for immediate steps to avoid a food…</p><img src="images/spotlightThree.webp" alt="Space"></div>
-      </section>
-      <div class="blockSix"><h2>JOIN US!</h2> <p>Belonging to the Chamber offers your business access to an established network where business can meet, engage and thrive</p></div>
-    
+    <main class="mainform">
+        <h1>Become A Member Today!</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+            <label class="top"> First Name* <input type="text" name="fname" required></label>
+            <label class="top"> Last Name* <input type="text" name="lname" required></label>
+            <label class="top">Position Title <input type="text" name="title" minlength="7" pattern="[Za]"></label>
+            <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top"> Cellphone* <input type="tel" name="phone" required></label>
+            <label class="top"> Business Name* <input type="text" name="bname" required></label>
+            <fieldset>
+            <legend><div>Membership Level</div></legend>
+                <label class="sbs"><input type="radio" name="membershiplvl" value="npmembership">NP Membership</label>
+                <label class="sbs"><input type="radio" name="membershiplvl" value="bmembership">Bronze Membership.</label>
+                <label class="sbs"><input type="radio" name="membershiplvl" value="smembership">Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membershiplvl" value="gmembership">Gold Membership</label>
+            </fieldset>    
+            <label class="top"> Business Description <textarea name="bdesc" ></textarea></label>
+            <input type="hidden" name="datendtime" value="currentdateandtime"></label>  
+            <input type="submit" value="Become a Member" class="submitBtn">  
+
+        </fieldset>
+        </form>
+
+
+
     </main>
     <footer>
       <section class="toppart">
@@ -123,6 +107,5 @@
       </section>
     </footer>
     <script src="scripts/homepage.js"></script>
-    <script src="scripts/windchill.js"></script>
   </body>
 </html>
