@@ -1,0 +1,35 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+text-align: center;
+}
+
+h1, h2 {
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    background-color: #87BCDE;
+}
+main {
+    background-color: #243B4A;
+    box-shadow: 0 0 50px  #4E4D5C;
+}
+section{
+    background-color: #805E73;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: 3px solid black;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 0 0 50px  #243B4A ;
+}
