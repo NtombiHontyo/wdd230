@@ -346,6 +346,52 @@ form label.top input:required {
 form label.top input:required:valid {
   border-left: green solid 6px;
 }
-.cards {
+.dirmain {
   display: block;
+}
+.cards {
+  background-color: #297373;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.cards section {
+  border: 2px solid black;
+  margin: .5rem;
+  padding: 1rem;
+}
+.cards section img {
+  margin: 2rem;
+}
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.list {
+	display: block;
+}
+
+.list section {
+	display: block;
+	margin: 0;
+	padding: 0.25rem;
+  border: none;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; 
 }

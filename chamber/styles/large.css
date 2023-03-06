@@ -93,8 +93,34 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
   }
-
-
+.dirmain{
+  display: block;
+}
+  .cards {
+    background-color: #297373;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  .list {
+    display: block;
+  }
+  
+  .list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+    border-top: 2px solid black;
+  }
+  
+  .list section > * {
+    margin: 0 1rem;
+  }
+  
+  .list section img {
+    display: none; 
+  }
     
 }
 

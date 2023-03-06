@@ -35,8 +35,7 @@ const displayBusinesses = (companies) => {
         portrait.setAttribute('src', company.logo);
         portrait.setAttribute('alt','Logo of' + ' ' + companyName);
         portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '340');
-        portrait.setAttribute('height', '440');;
+        
 
         //Make the h2 and portrait children of card(section)
 
@@ -54,3 +53,19 @@ const displayBusinesses = (companies) => {
 
 
 getDirectoryData();
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector(".cards");
+
+gridbutton.addEventListener("click", () => {
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", () =>{
+
+
+	display.classList.add("list");
+	display.classList.remove("grid");
+})
