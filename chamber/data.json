@@ -1,0 +1,76 @@
+{
+    "companies" : [
+        {
+            "campanyname" : "Red Wave Company",
+            "address" : "10 Byron Street, Cambridge, Durban",
+            "phoneNumber" : "031 558 8746",
+            "websiteURL" : "www.rdcompany.com",
+            "logo" : "images/directoryPage/companyOne",
+            "membershipLevel" : "Bronze Membership" 
+        },
+        {
+            "campanyname" : "Blue Arrow Business Solutions",
+            "address" : "9 Venice Road, Morningside, Durban",
+            "phoneNumber" : "031 070 8750",
+            "websiteURL" : "www.bluearrowbs.org",
+            "logo" : "images/directoryPage/companyTwo",
+            "membershipLevel" : "Gold Membership" 
+        },
+        {
+            "campanyname" : "Network Inc.",
+            "address" : "4 Jubilee Street, Parktown, Durban",
+            "phoneNumber" : "031 457 8822",
+            "websiteURL" : "www.networkinc.co.za",
+            "logo" : "images/directoryPage/companyThree",
+            "membershipLevel" : "Silver Membership" 
+        },
+        {
+            "campanyname" : "Cyrstal Engineers",
+            "address" : "23 Cape Drive, Pinetown, Richards Bay",
+            "phoneNumber" : "031 529 1557",
+            "websiteURL" : "wwww.crystaleng.com",
+            "logo" : "images/directoryPage/companyFour",
+            "membershipLevel" : "Silver Membership" 
+        },
+        {
+            "campanyname" : "The Black Tower Diner",
+            "address" : "3 Brickstreet Road, Amalinda, Durban",
+            "phoneNumber" : "031 456 22887",
+            "websiteURL" : "www.backtowerdiner.co.za",
+            "logo" : "images/directoryPage/companyFive",
+            "membershipLevel" : "Bronze Membership" 
+        },
+        {
+            "campanyname" : "The Miracle Beauty Spa",
+            "address" : "11 Forsyth Street, Haven Hills, Petermaritzburg",
+            "phoneNumber" : "031 444 1212",
+            "websiteURL" : "www.miraclebeauty.com",
+            "logo" : "images/directoryPage/companySix",
+            "membershipLevel" : "Silver Membership" 
+        },
+        {
+            "campanyname" : "Pheonix Bookstore",
+            "address" : "23 Devauraux Avanue, Vincent, Durban",
+            "phoneNumber" : "031 510 0088",
+            "websiteURL" : "www.pheonixbookstore.org",
+            "logo" : "images/directoryPage/companySeven",
+            "membershipLevel" : "Gold Membership" 
+        },
+        {
+            "campanyname" : "Abstract IT Solutions",
+            "address" : "5 Uxbridge Road, Morningside, Durban",
+            "phoneNumber" : "031 111 8523",
+            "websiteURL" : "www.abstractitsol.co.za",
+            "logo" : "images/directoryPage/companyEight",
+            "membershipLevel" : "Gold Membership" 
+        },
+        {
+            "campanyname" : "Connect Corp.",
+            "address" : "12 Long Street, Sandton, Durban",
+            "phoneNumber" : "031 574 4685",
+            "websiteURL" : "www.connectcorpsa.com",
+            "logo" : "images/directoryPage/companyNine",
+            "membershipLevel" : "Silver Membership" 
+        }
+    ]
+}
