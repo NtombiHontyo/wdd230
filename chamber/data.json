@@ -5,7 +5,7 @@
             "address" : "10 Byron Street, Cambridge, Durban",
             "phoneNumber" : "031 558 8746",
             "websiteURL" : "www.rdcompany.com",
-            "logo" : "images/directoryPage/companyOne",
+            "logo" : "images/directoryPage/companyOne.webp",
             "membershipLevel" : "Bronze Membership" 
         },
         {
@@ -13,7 +13,7 @@
             "address" : "9 Venice Road, Morningside, Durban",
             "phoneNumber" : "031 070 8750",
             "websiteURL" : "www.bluearrowbs.org",
-            "logo" : "images/directoryPage/companyTwo",
+            "logo" : "images/directoryPage/companyTwo.webp",
             "membershipLevel" : "Gold Membership" 
         },
         {
@@ -21,7 +21,7 @@
             "address" : "4 Jubilee Street, Parktown, Durban",
             "phoneNumber" : "031 457 8822",
             "websiteURL" : "www.networkinc.co.za",
-            "logo" : "images/directoryPage/companyThree",
+            "logo" : "images/directoryPage/companyThree.webp",
             "membershipLevel" : "Silver Membership" 
         },
         {
@@ -29,7 +29,7 @@
             "address" : "23 Cape Drive, Pinetown, Richards Bay",
             "phoneNumber" : "031 529 1557",
             "websiteURL" : "wwww.crystaleng.com",
-            "logo" : "images/directoryPage/companyFour",
+            "logo" : "images/directoryPage/companyFour.webp",
             "membershipLevel" : "Silver Membership" 
         },
         {
@@ -37,7 +37,7 @@
             "address" : "3 Brickstreet Road, Amalinda, Durban",
             "phoneNumber" : "031 456 22887",
             "websiteURL" : "www.backtowerdiner.co.za",
-            "logo" : "images/directoryPage/companyFive",
+            "logo" : "images/directoryPage/companyFive.webp",
             "membershipLevel" : "Bronze Membership" 
         },
         {
@@ -45,7 +45,7 @@
             "address" : "11 Forsyth Street, Haven Hills, Petermaritzburg",
             "phoneNumber" : "031 444 1212",
             "websiteURL" : "www.miraclebeauty.com",
-            "logo" : "images/directoryPage/companySix",
+            "logo" : "images/directoryPage/companySix.webp",
             "membershipLevel" : "Silver Membership" 
         },
         {
@@ -53,7 +53,7 @@
             "address" : "23 Devauraux Avanue, Vincent, Durban",
             "phoneNumber" : "031 510 0088",
             "websiteURL" : "www.pheonixbookstore.org",
-            "logo" : "images/directoryPage/companySeven",
+            "logo" : "images/directoryPage/companySeven.webp",
             "membershipLevel" : "Gold Membership" 
         },
         {
@@ -61,7 +61,7 @@
             "address" : "5 Uxbridge Road, Morningside, Durban",
             "phoneNumber" : "031 111 8523",
             "websiteURL" : "www.abstractitsol.co.za",
-            "logo" : "images/directoryPage/companyEight",
+            "logo" : "images/directoryPage/companyEight.webp",
             "membershipLevel" : "Gold Membership" 
         },
         {
@@ -69,7 +69,7 @@
             "address" : "12 Long Street, Sandton, Durban",
             "phoneNumber" : "031 574 4685",
             "websiteURL" : "www.connectcorpsa.com",
-            "logo" : "images/directoryPage/companyNine",
+            "logo" : "images/directoryPage/companyNine.webp",
             "membershipLevel" : "Silver Membership" 
         }
     ]

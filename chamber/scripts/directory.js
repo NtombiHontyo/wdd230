@@ -1,4 +1,4 @@
-const url = 'data.json';
+const url = 'https://ntombihontyo.github.io/wdd230/chamber/data.json';
 
 async function getDirectoryData(){
     const response = await fetch(url);
@@ -53,4 +53,4 @@ const displayBusinesses = (companies) => {
 }
 
 
-getProphetData();
+getDirectoryData();
