@@ -247,6 +247,11 @@ p {
 .joinUsMess p {
   color: black;
 }
+#tempV {
+  font-size: xx-large;
+}
+figcaption {font-size: xx-large;
+font-weight: bold;}
 
 .blockThree p {
   border-top: 1px solid white;
@@ -316,7 +321,7 @@ form label.top input, form label.top textarea {
   border: solid 1px #999;
   border-radius: 4px;
   padding: .75rem;
-  color: lightgrey;
+  color: black;
   width: 100%;
   max-width: 20rem;
   background-color: lightgrey;
@@ -346,6 +351,16 @@ form label.top input:required {
 form label.top input:required:valid {
   border-left: green solid 6px;
 }
+
+.thanks {
+  display: block;
+}
+
+.thanks h1, p {color: black;}
+.thanks p {color: black;
+margin: 3rem;}
+/*----week09 css ----*/
+
 .dirmain {
   display: block;
 }

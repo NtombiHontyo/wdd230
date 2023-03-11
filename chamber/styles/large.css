@@ -121,6 +121,22 @@
   .list section img {
     display: none; 
   }
+
+  .mainform {
+    display: block;
+  }
+  .formPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  td, th {
+    border: 1px solid black;
+    color:  white;
+    padding: 0.3rem;
+  }
+  section {
+    margin: 1rem;
+  }
     
 }
 
