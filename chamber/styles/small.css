@@ -359,6 +359,8 @@ form label.top input:required:valid {
 .thanks h1, p {color: black;}
 .thanks p {color: black;
 margin: 3rem;}
+
+legend {color: white;}
 /*----week09 css ----*/
 
 .dirmain {
@@ -409,4 +411,24 @@ margin: 3rem;}
 
 .list section img {
 	display: none; 
+}
+
+.weathersect {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.icon {
+  grid-column: 1/2;
+}
+.tempreture {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+}
+figcaption {
+  grid-row: 2/3;
+  font-size: 1.5rem;
+  text-align: center;
 }

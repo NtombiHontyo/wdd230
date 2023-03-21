@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JOIN</title>
+    <title>CONTACT</title>
     <meta
       name="description"
       content="A page for joining the Durban Chamber of Commerce "
@@ -54,75 +54,42 @@
           <li><a href="discover.html">DISCOVER</a></li>
           <li class="active"><a href="join.html">JOIN</a></li>
           <li><a href="directory.html">DIRECTORY</a></li>
-          <li><a href="contact.html">CONTACT US</a></li>
+          <li class="active"><a href="contact.html">CONTACT US</a></li>
         </ul>
       </nav>
     </header>
     <main class="mainform">
-        <h1>Become A Member Today!</h1>
+        <h1>Get in Touch with us</h1>
         <div class="formPage">
-        <form method="get" action="thankyou.html">
+        <form method="get" action="message.html">
             <fieldset>
             <label class="top"> First Name* <input type="text" name="fname" required></label>
             <label class="top"> Last Name* <input type="text" name="lname" required></label>
-            <label class="top">Position Title <input type="text" name="title" minlength="7" pattern="[CEO]|[CFO]|[Oo]wner|[Mm]anager"></label>
-            <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label class="top"> Cellphone* <input type="tel" name="phone" required></label>
-            <label class="top"> Business Name* <input type="text" name="bname" required></label>
-            <fieldset>
-            <legend>Membership Level</legend>
-                <label class="sbs"><input type="radio" name="membershiplvl" value="npmembership">NP Membership</label>
-                <label class="sbs"><input type="radio" name="membershiplvl" value="bmembership">Bronze Membership.</label>
-                <label class="sbs"><input type="radio" name="membershiplvl" value="smembership">Silver Membership</label>
-                <label class="sbs"><input type="radio" name="membershiplvl" value="gmembership">Gold Membership</label>
-            </fieldset>    
-            <label class="top"> Business Description <textarea name="bdesc" ></textarea></label>
-            <input type="hidden" type="datetime-local" name="datendtime" value="currentdateandtime"></label>  
-            <input type="submit" value="Become a Member" class="submitBtn">  
+            <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>   
+            <label class="top"> Message <textarea name="bdesc" ></textarea></label> 
+            <input type="submit" value="Send Message" class="submitBtn">  
 
         </fieldset>
         </form>
         <section>
-          <table>
-            <tr>
-                <th colspan="5">Membership Level Benefits</th>
-            </tr>
-            <tr>
-                <td></td>
-                <th>NP <br> Membership</th>
-                <th>Bronze <br> Membership.</th>
-                <th>Silver <br> Membership</th>
-                <th>Gold <br> Membership</th>
-            </tr>
-            <tr>
-                <th>Trainings</th>
-                <td class="tick">&#x2713;</td>
-                <td class="tick">&#x2713;</td>
-                <td class="tick">&#x2713;</td>
-                <td class="tick">&#x2713;</td>
-            </tr>
-            <tr>
-                <th>Advertising</th>
-                <td>&#10060;</td>
-                <td class="tick">&#x2713;</td>
-                <td class="tick">&#x2713;</td>
-                <td class="tick">&#x2713;</td>
-            </tr>
-            <tr>
-                <th> Event Discounts</th>
-                <td>&#10060;</td>
-                <td>&#10060;</td>
-                <td class="tick">&#x2713;</td>
-                <td class="tick">&#x2713;</td>
-            </tr>
-            <tr>
-              <th> VIP Access</th>
-              <td>&#10060;</td>
-              <td>&#10060;</td>
-              <td>&#10060;</td>
-              <td class="tick">&#x2713;</td>
-          </tr>
-        </table>
+          <h1>Contact Information</h1>
+          <div>
+            <h2>Address</h2>
+            <p>10 Byron Street <br> Cambridge <br>Durban <br> 5247</p>
+          </div>
+          <div>
+            <h2>Office Hours</h2>
+            <p> Monday: 08:00 - 16:00 <br> Tuesday: 08:00 - 16:00 <br> Wednesday: 08:00 - 16:00 <br>
+                 Thursday: 08:00 - 16:00 <br> Friday: 08:00 - 14:30 <br>Saturday: Closed <br> Sunday: Closed <br> Public Holidays: Closed</p>
+          </div>
+          <div>
+            <h2>Telephone Number</h2>
+            <p>+27 81 289 0392</p>
+          </div>
+          <div>
+            <h2>Email</h2>
+            <p>enqiries@durbanchamber.org</p>
+          </div>
         </section>
       </div>
     </main>
