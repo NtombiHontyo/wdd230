@@ -18,3 +18,14 @@ button.addEventListener('click', () => {
 
     input.focus();
 })
+
+
+
+
+document.getElementById('btn').onclick = function() {  
+    var markedCheckbox = document.getElementsByName('pl');  
+    for (var checkbox of markedCheckbox) {  
+      if (checkbox.checked)  
+        document.body.append(checkbox.value + ' ');  
+    }  
+  }  

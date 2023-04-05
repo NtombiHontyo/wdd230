@@ -13,7 +13,7 @@ document.getElementById("headerdate").innerHTML = `<em>${fulldateUK}</em>`;
 
 // For the responisive navigation//
 function toggleMenu() {
-  document.getElementById("nav").classList.toggle("open");
+  document.getElementById("nav").classList.toggle("open"); //'open' is a new class name created here//
   document.getElementById("hamburgerBtn").classList.toggle("open");
 }
 const x = document.getElementById("hamburgerBtn");
